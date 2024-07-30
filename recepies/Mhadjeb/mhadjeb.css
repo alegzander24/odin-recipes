@@ -1,0 +1,25 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: beige;
+}
+
+.title,
+.sub-title {
+	font-family: monospace;
+}
+.title {
+	font-size: 50px;
+	color: #a52a2a;
+	background-color: yellow;
+	text-align: center;
+}
+
+.image {
+	text-align: center;
+}
+
+.sub-title {
+	text-align: center;
+	font-size: 30px;
+	color: chocolate;
+}
