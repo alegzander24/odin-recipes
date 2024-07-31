@@ -1,12 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #edede9;
+	color: #5b4231;
+}
 h1 {
-	color: #03045e;
+	padding: 15px;
+	margin-bottom: 20px;
 	font-family: monaco;
 	text-align: center;
 	font-size: 50px;
-	background-color: #8ecae6;
+	background-color: #e0d3cc;
 }
 
 a {
+	text-decoration: none;
+}
+div {
 	font-size: 30px;
 	text-align: center;
 }

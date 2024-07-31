@@ -1,6 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: beige;
+	text-align: center;
 }
 
 .title,
@@ -16,10 +17,36 @@ body {
 
 .image {
 	text-align: center;
+	margin: 20px;
 }
 
 .sub-title {
 	text-align: center;
 	font-size: 30px;
 	color: chocolate;
+}
+
+p {
+	text-align: center;
+	padding: 0 100px;
+}
+
+h3 {
+	text-align: center;
+}
+
+ul {
+	list-style-position: inside; /* Places bullets inside, aligning them with text */ /* Centers the text within the list items */
+	padding-left: 0; /* Removes default padding */
+	margin: 0 auto; /* Centers the list horizontally */
+}
+
+ol {
+	list-style-position: inside; /* Places bullets inside, aligning them with text */ /* Centers the text within the list items */
+	padding-left: 0; /* Removes default padding */
+	margin: 0 auto; /* Centers the list horizontally */
+}
+
+li {
+	margin: 5px auto;
 }
